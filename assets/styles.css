@@ -1,0 +1,108 @@
+/* style.css */
+
+/* General styling */
+body {
+    background-color: #0a192f; /* Dark Navy Blue background */
+    font-family: "Times New Roman", Times, serif; /* Times New Roman font */
+    margin: 0;
+    padding: 0;
+    color: #f7f7f2; /* Ivory text */
+}
+
+/* Container styling */
+.container {
+    padding: 20px;
+}
+
+/* Header styling */
+.header {
+    color: #f7f7f2; /* Ivory text */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    color: #f7f7f2; /* Ivory text */
+    font-family: "Times New Roman", Times, serif; /* Times New Roman font */
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+
+/* Dropdown styling */
+#country-dropdown, #year-dropdown {
+    width: 50%;
+    margin: 10px auto;
+    font-family: "Times New Roman", Times, serif; /* Times New Roman font */
+    display: block;
+    background-color: #333333; /* Dark grey background */
+    color: #000000; /* Black text */
+}
+
+/* Year selection display */
+#selected-year {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #f7f7f2; /* Ivory text */
+    font-family: "Times New Roman", Times, serif; /* Times New Roman font */
+    text-align: center;
+}
+
+/* Graph container styling */
+.graph-container {
+    border: 1px solid #555555; /* Grey border */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #0a192f; /* Dark Navy Blue background for graphs */
+    text-align: center;
+    font-family: "Times New Roman", Times, serif; /* Times New Roman font */
+}
+
+/* Flex container for charts */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Dropdown container styling */
+.dropdown-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Graph specific styling */
+.dcc-Graph {
+    background-color: #0a192f; /* Dark Navy Blue background for graphs */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Styling for dropdown options */
+.dcc-dropdown-menu {
+    background-color: #0a192f; /* Dark Navy Blue background */
+    color: #f7f7f2; /* Ivory text */
+}
+
+/* Styling for dropdown selected option */
+.dcc-dropdown-option {
+    background-color: #0a192f; /* Dark Navy Blue background */
+    color: #f7f7f2; /* Ivory text */
+}
+
+/* Styling for dropdown indicator */
+.dcc-dropdown-indicator {
+    color: #f7f7f2; /* Ivory text for dropdown indicator */
+}
+
+/* Styling for dropdown indicator when dropdown is open */
+.dcc-dropdown-indicator--open {
+    color: #f7f7f2; /* Ivory text for dropdown indicator */
+}

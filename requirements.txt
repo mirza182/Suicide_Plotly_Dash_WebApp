@@ -1,0 +1,7 @@
+dash
+pandas
+mysql-connector-python
+flask
+plotly
+seaborn
+scikit-learn
